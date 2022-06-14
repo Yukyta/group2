@@ -51,6 +51,42 @@ button:hover {
 .topnav .icon {
     display: none;
   }
+.hero-container {
+    background-color: #282D63;
+    width: 100%;
+    height: 523px;
+}
+.hero-text {
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    font-size: 36px;
+    width: 700px;
+}
+.turtle1 {
+    position: relative;
+    top: -150px;
+    left: 900px;
+}
+.turtle2 {
+position: relative;
+top: 118px;
+left: 200px;
+}
+.turtle3 {
+position: relative;
+top: 150px;
+left: 450px;
+}
+.turtle4 {
+    position: relative;
+    top: -150px;
+    left: -80px;
+}
+.challenge {
+    height: 100px;
+}
 .footer-container {
     background-color: #282D63;
     padding: 2rem 0 2rem 0;
