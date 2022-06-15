@@ -76,7 +76,7 @@ left: 200px;
 }
 .turtle3 {
 position: relative;
-top: 150px;
+top: 130px;
 left: 450px;
 }
 .turtle4 {
@@ -84,10 +84,75 @@ left: 450px;
     top: -150px;
     left: -80px;
 }
+.hero-about-container {
+    position: relative;
+    top: 50px;
+    height: 150px;
+}
+.hero-about {
+    display: flex;
+    justify-content: center;
+}
+.hero-about-text {
+    color: #282D63;
+    width: 1139px;
+    font-size: 24px;
+}
 .challenge {
-    height: 100px;
+    float: right;
+    background-color: #282D63;
+    width: 865px;
+    height: 600px;
+}
+.trap {
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.challenge-container {
+    position: relative;
+    top: 50px;
+    height: 500px;
+}
+p {
+    position: relative;
+    right: 30px;
+    top: 110px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    float: right;
+    width: 563px;
+}
+.teacher {
+    position: relative;
+    top: 155px;
+    left: 250px;
+}
+#enter {
+    position: relative;
+    left: 340px;
+    top: 475px;
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: white;
+    outline: none;
+    border: none;
+    color: #282D63;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#enter:hover {
+    background-color: rgba(255,255,255,0.8);
 }
 .footer-container {
+    position: relative;
+    top: 200px;
     background-color: #282D63;
     padding: 2rem 0 2rem 0;
 }
@@ -181,4 +246,3 @@ h3 {
     font-size: 12px;
     margin-top: 4rem;
 }
-
