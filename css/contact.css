@@ -54,7 +54,7 @@ button:hover {
 
 .contact {
     float: left;
-
+    height: 490px;
 }
 .name {
     display: column;
@@ -108,6 +108,9 @@ p {
     display: flex;
     justify-content: center;
 }
+.contact-container {
+    height: 400px;
+}
 .form {
     color: white;
     background-color: #282D63;
@@ -131,11 +134,13 @@ p {
 }
 .footer-container {
     position: relative;
-    top: 500px;
+    top: 200px;
     background-color: #282D63;
+    padding: 2rem 0 2rem 0;
 }
 .footer {
     width: 80%;
+    height: 40vh;
     background-color: #282D63;
     color: white;
     display: flex;
