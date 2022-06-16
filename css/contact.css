@@ -59,7 +59,27 @@ button:hover {
 .name {
     display: column;
 }
+.specific {
+    font-size: 30px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+.click {
+    font-size: 22px;
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+.about-us {
+    position: relative;
+    top: 80px;
+    left: 300px;
+}
 #name-btn {
+    position: relative;
+    top: 70px;
+    left: 340px;
     margin: 10px;
     width: 200px;
     height: 40px;
@@ -93,7 +113,21 @@ p {
     background-color: #282D63;
     float: right;
     width: 900px;
-    height: auto;
+    height: 490px;
+}
+#btn {
+    position: relative;
+    top: 100px;
+    left: 400px;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: white;
+    outline: none;
+    border: none;
+    color: #282D63;
+    font-size: 1rem;
+    cursor: pointer;
 }
 .footer-container {
     position: relative;
@@ -102,7 +136,6 @@ p {
 }
 .footer {
     width: 80%;
-    height: 40vh;
     background-color: #282D63;
     color: white;
     display: flex;
