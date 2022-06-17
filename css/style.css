@@ -39,7 +39,7 @@ body{
     font-weight: 600; 
 }
 .blog-container{
-    float: center;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     margin: 20px 0px;
