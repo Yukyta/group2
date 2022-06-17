@@ -58,6 +58,235 @@ button:hover {
     background-color: #282D63;
     padding: 2rem 0 2rem 0;
 }
+.stand {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: #282D63;
+}
+.mission {
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #282D63;
+    position: relative;
+    left: 100px;
+    top: 40px;
+    width: 40%;
+    height: 700px;
+    border: 1px solid black;
+}
+.mission-h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+    font-size: 40px;
+    top: 10px;
+}
+.mission-h3 {
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    font-size: 30px;
+    float: left;
+    width: 85%;
+}
+.ocean {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    position: relative;
+    top: 40px;
+    left: 100px;
+    border-radius: 10px;
+}
+.vision {
+    border-radius: 10px;
+    display: inline-block;
+    width: 40%;
+    float: right;
+    background-color: #282D63;
+    position: relative;
+    top: 40px;
+    right: 100px;
+    height: 700px;
+    border: 1px solid black;
+}
+.vision-h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+    font-size: 40px;
+    top: 10px;
+}
+.vision-h3 {
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 75px;
+    font-size: 30px;
+    width: 85%;
+
+}
+.value {
+
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    background-color: #282D63;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.card1 {
+    background-color: white;
+    position: relative;
+    top: 100px;
+    height: 450px;
+    width: 250px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.heading1 {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    color: #282D63;
+    font-size: 25px;
+}
+.sub1 {
+    position: relative;
+    top: 70px;
+    left: 30px;
+    font-size: 20px;
+    color: #282D63;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.card2 {
+    background-color:white;
+    position: relative;
+    top: 100px;
+    height: 450px;
+    width: 250px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.heading2 {
+    position: relative;
+    top: 30px;
+    left: 55px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    color: #282D63;
+    font-size: 25px;
+}
+.sub2 {
+    position: relative;
+    top: 70px;
+    left: 30px;
+    font-size: 20px;
+    color: #282D63;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.card3 {
+    background-color: white;
+    position: relative;
+    top: 100px;
+    height: 450px;
+    width: 250px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.heading3 {
+    position: relative;
+    top: 30px;
+    left: 55px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    color: #282D63;
+    font-size: 25px;
+}
+.sub3 {
+    position: relative;
+    top: 70px;
+    left: 30px;
+    font-size: 20px;
+    color: #282D63;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.card4 {
+    background-color: white;
+    position: relative;
+    top: 100px;
+    height: 450px;
+    width: 250px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.heading4 {
+    position: relative;
+    top: 30px;
+    left: 35px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    color: #282D63;
+    font-size: 25px;
+}
+.sub4 {
+    position: relative;
+    top: 70px;
+    left: 30px;
+    font-size: 20px;
+    color: #282D63;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.card5 {
+    background-color: white;
+    position: relative;
+    top: 100px;
+    height: 450px;
+    width: 250px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.heading5 {
+    position: relative;
+    top: 30px;
+    left: 55px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    color: #282D63;
+    font-size: 25px;
+}
+.sub5 {
+    position: relative;
+    top: 70px;
+    left: 30px;
+    font-size: 20px;
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
 .footer {
     width: 80%;
     height: 40vh;
