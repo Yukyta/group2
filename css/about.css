@@ -51,7 +51,11 @@ button:hover {
 .topnav .icon {
     display: none;
   }
+h2 {
+    color: white;
+    position: relative;
 
+}
   .footer-container {
     position: relative;
     top: 200px;
@@ -93,14 +97,23 @@ button:hover {
     float: left;
     width: 85%;
 }
-.ocean {
-    display: flex;
-    justify-content: center;
-    width: 500px;
+.ala {
     position: relative;
-    top: 40px;
-    left: 60px;
+    top: 200px;
+    width: 100%;
+    font-size: 40px;
+    color: #282D63;
+}
+.ocean {
+border-radius: 10px;
+width: 60%;
+height: auto;
+}
+.turtle {
     border-radius: 10px;
+    width: 60%;
+    height: auto;
+        
 }
 .vision {
     border-radius: 10px;
@@ -132,161 +145,151 @@ button:hover {
     width: 85%;
 
 }
-.value {
-
-    border-radius: 10px;
+/* Float four columns side by side */
+.column1 {
+    padding: 0 10px 0 20px;
+    float: left;
+    width: 50%;
+  }
+  .column2 {
+    padding: 0 20px 0 10px;
+    float: left;
+    width: 50%;
+  }
+  .column3 {
+    float: left;
+    width: 33%;
+    padding: 0 10px 0 20px;
+  }
+  .column4 {
+    float: left;
+    width: 33%;
+    padding: 0 10px 0 20px;
+  }
+  .column5 {
+    float: left;
+    width: 33%;
+    padding: 0 10px 0 20px;
+  }
+  .column6 {
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 33%;
+    padding: 0 10px 0 20px;
+  }
+  .column7 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    float: left;
+    width: 33%;
+    padding: 0 20px 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  .row2 {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  /* Style the counter cards */
+  .card1 {
     position: relative;
-    top: 100px;
+    height: 650px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+  }
+  .card1:hover {
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.4);
+  }
+  .card2:hover {
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.4);
+  }
+  .card1:before {
+    border-radius: 10px;
+    content: "";
+    background-image: url(../images/ocean.jpg);
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+  }
+  .card2 {
+    position: relative;
+    height: 650px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+  }
+  .card2:before {
+    border-radius: 10px;
+    content: "";
+    background-image: url(../images/turtle.jpg);
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+  }
+  .hero {
+      height: 1600px;
+  }
+  h1 {
+      display: flex;
+      justify-content: center;
+      color:#282D63;
+      margin-top: 20px;
+  }
+  .values {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  .card3 {
+      height: 400px;
+    position: relative;
+    top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #282D63
+  }
+  .color {
     background-color: #282D63;
-    height: 700px;
-    display: flex;
-    justify-content: space-around;
-
-}
-.card1 {
-    background-color: white;
-    position: relative;
-    top: 100px;
-    height: 450px;
-    width: 250px;
-    display: inline-block;
-    border-radius: 10px;
-}
-.heading1 {
-    position: relative;
-    top: 30px;
-    left: 30px;
-    display: flex;
-    justify-content: center;
-    color: #282D63;
-    font-size: 25px;
-}
-.sub1 {
-    position: relative;
-    top: 70px;
-    left: 30px;
-    font-size: 20px;
-    color: #282D63;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-}
-.card2 {
-    background-color:white;
-    position: relative;
-    top: 100px;
-    height: 450px;
-    width: 250px;
-    display: inline-block;
-    border-radius: 10px;
-}
-.heading2 {
-    position: relative;
-    top: 30px;
-    left: 55px;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    color: #282D63;
-    font-size: 25px;
-}
-.sub2 {
-    position: relative;
-    top: 70px;
-    left: 30px;
-    font-size: 20px;
-    color: #282D63;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-}
-.card3 {
-    background-color: white;
-    position: relative;
-    top: 100px;
-    height: 450px;
-    width: 250px;
-    display: inline-block;
-    border-radius: 10px;
-}
-.heading3 {
-    position: relative;
-    top: 30px;
-    left: 55px;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    color: #282D63;
-    font-size: 25px;
-}
-.sub3 {
-    position: relative;
-    top: 70px;
-    left: 30px;
-    font-size: 20px;
-    color: #282D63;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-}
+  }
 .card4 {
-    background-color: white;
+    height: 400px;
     position: relative;
-    top: 100px;
-    height: 450px;
-    width: 250px;
-    display: inline-block;
+    top: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
     border-radius: 10px;
+    text-align: center;
+    background-color: #282D63
 }
-.heading4 {
-    position: relative;
-    top: 30px;
-    left: 35px;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    color: #282D63;
-    font-size: 25px;
-}
-.sub4 {
-    position: relative;
-    top: 70px;
-    left: 30px;
-    font-size: 20px;
-    color: #282D63;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-}
-.card5 {
-    background-color: white;
-    position: relative;
-    top: 100px;
-    height: 450px;
-    width: 250px;
-    display: inline-block;
-    border-radius: 10px;
-}
-.heading5 {
-    position: relative;
-    top: 30px;
-    left: 55px;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    color: #282D63;
-    font-size: 25px;
-}
-.sub5 {
-    position: relative;
-    top: 70px;
-    left: 30px;
-    font-size: 20px;
-    color: #282D63;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-}
+
 .footer {
     width: 80%;
     height: 40vh;
@@ -366,6 +369,12 @@ button:hover {
     }
 }
 @media screen and (max-width:600px) {
+    .card1 {
+      height: 800px;
+    }
+    .card2 {
+      height: 800px;
+    }
     .footer-container {
         height: 680px;
     }
@@ -377,3 +386,79 @@ h3 {
     font-size: 12px;
     margin-top: 4rem;
 }
+.top {
+    font-size: 43px;
+    color: #282D63;
+    position: relative;
+    top: -40px;
+}
+.flip-card {
+    display: inline-block;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    background-color: transperent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .footer-text-A {
+    margin-top:0;
+  }
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .one {
+    font-size: 30px;
+    padding-top: 70px;
+  }
+  .para1 {
+    margin-top: 70px;
+  } 
+  .para2 {
+    margin-top: 80px;
+  } 
+  .para3 {
+    margin-top: 65px;
+  } 
+  .para4 {
+    margin-top: 90px;
+  } 
+  .para5 {
+    margin-top: 65px;
+  }
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    border-radius: 10px;
+    border: 1px solid #282D63;
+    background-color: white;
+    color: #282D63;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #282D63;
+    color: white;
+    transform: rotateY(180deg);
+  }
