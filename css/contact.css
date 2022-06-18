@@ -45,6 +45,16 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
+h2 {
+    padding-top: 10px;
+    font-size: 40px;
+    color: white;
+}
+p {
+    font-size: 24px;
+    color: white;
+    padding-top: 30px;
+}
 .about {
     font-size: 20px;
     height: 50px;
@@ -97,17 +107,18 @@ button:hover {
     border-radius: 20px;
     background-color: white;
     height: 520px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
   }
   .specific {
+      color:#282D63;
       font-size: 30px;
       padding-top: 20px;
   }
   .click {
-      font-size: 24px;
-      padding-top: 30px;
+    color:#282D63;
+      font-size: 20px;
+      padding-top: 40px;
   }
 
   @media screen and (max-width: 600px) {
@@ -126,6 +137,8 @@ button:hover {
 }
 
 #name-btn {
+    position: relative;
+    top: 40px;
     margin: 10px;
     width: 200px;
     height: 40px;
@@ -155,6 +168,8 @@ li {
     height: 490px;
 }
 #btn {
+    position: relative;
+    top: 60px;
     width: 100px;
     height: 40px;
     border-radius: 4px;
