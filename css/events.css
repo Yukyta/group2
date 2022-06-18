@@ -48,23 +48,85 @@ button {
 button:hover {
     background-color: rgba(40,45,99,0.8);
 }
+.second {
+    width: 250px;
+    height: 50px;
+    color:#282D63;
+    background-color: rgba(255,255,255,1);
+}
+.second:hover {
+    background-color: rgba(255,255,255,0.8);
+}
 .topnav .icon {
     display: none;
-  }
-  .footer-container {
+}
+.footer-container {
     position: relative;
     top: 200px;
     background-color: #282D63;
     padding: 2rem 0 2rem 0;
 }
+h1 {
+display: flex;
+justify-content: center;
+color:#282D63;
+padding: 10px 0 30px 0;
+}
+h2 {
+    color: white;
+    padding-top: 10px;
+}
+p {
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+}
 .event1 {
-    width: 700px
-    height: 500px;
-    background-color: #282D63
+    border-radius: 20px;
+    width: auto;
+    height: 250px;
 }
-.event-1-img {
-    width: 30%;
+.event2 {
+    border-radius: 20px;
+    width: auto;
+    height: 250px;
 }
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .learn {
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left:0px;
+  }
+  .card {
+    border-radius: 20px;
+    background-color: #282D63;
+    height: 520px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
 .footer {
     width: 80%;
     height: 40vh;
