@@ -6,11 +6,11 @@ p {
 .banner {
     position:relative;
     width:100%;
-    min-height: 40vh;
+    min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url();
+    background-image: url(../DBC\ images/seabin.jpeg);
     background-size: cover;
 }
 .banner .content {
@@ -48,14 +48,6 @@ body{
     background: linear-gradient (#282D63,#282D63 50% #fff 100%);
  
 }
-
- 
-
-
-
-
-
-
 
 * {
     font-family: 'Noto Serif', serif;
@@ -371,7 +363,7 @@ section {
     left:0;
     width:100%;
     height:100%;
-    background:#ff226d;
+    background:#5DADE2;
     transform: scaleY(0);
     transform-origin:top;
     transition: transform 0.5s;
@@ -400,4 +392,92 @@ section {
     transform:translateY(-40px);
 
 
+}
+
+.section{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    width:800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slide{
+    width:500%;
+    height:500px;
+    display:flex;
+}
+.slide input{
+    display:none;
+}
+.st{
+    width:20%;
+    transition:2s;
+}
+.st img{
+    width:800px;
+    height:500px;
+}
+.nav-m{
+    position:absolute;
+    width:800px;
+    margin-top:-40px;
+    justify-content: center;
+    display:flex;
+}
+.m-btn{
+    border-radius: 2px solid #23e3c2;
+    padding:5px;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 1s;
+}
+.m-btn:not(:last-child){
+    margin-right: 30px;
+
+}
+.m-btn:hover{
+    background-color: rgba(40,45,99,1);
+}
+#seabin1:checked ~.first{
+    margin-left: 0;
+}
+#seabin2.nav-m ~.first{
+    margin-left: -20%;
+}
+#seabin3:checked ~.first{
+    margin-left: -40%;
+}
+.nav-auto{
+    position:absolute;
+    width:800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-auto div{
+    border:2px solid #23e3c2;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.nav-auto div:not(:last-child){
+    margin-right:30px;
+    justify-content: center;   
+}
+#seabin1:checked ~ .nav-auto .a-b1{
+    background-color: #282D63;
+}
+#seabin1:checked ~ .nav-auto .a-b2{
+    background-color: #282D63;
+}
+#seabin1:checked ~ .nav-auto .a-b3{
+    background-color: #282D63;
 }
