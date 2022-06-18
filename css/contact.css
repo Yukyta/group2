@@ -45,13 +45,89 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
+h2 {
+    padding-top: 10px;
+    font-size: 40px;
+    color: white;
+}
+p {
+    font-size: 24px;
+    color: white;
+    padding-top: 30px;
+}
+.about {
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    top: 100px;
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(40,45,99,1);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
 button:hover {
     background-color: rgba(40,45,99,0.8);
 }
 .topnav .icon {
     display: none;
 }
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }
+  
+.row {margin: 0 -5px;}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.learn {
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left:0px;
+  }
+  .card {
+    border-radius: 20px;
+    background-color: #282D63;
+    height: 520px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+  }
+  .card1 {
+    border-radius: 20px;
+    background-color: white;
+    height: 520px;
+    padding: 16px;
+    text-align: center;
+  }
+  .specific {
+      color:#282D63;
+      font-size: 30px;
+      padding-top: 20px;
+  }
+  .click {
+    color:#282D63;
+      font-size: 20px;
+      padding-top: 40px;
+  }
 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
 .contact {
     float: left;
     height: 490px;
@@ -59,27 +135,10 @@ button:hover {
 .name {
     display: column;
 }
-.specific {
-    font-size: 30px;
-    position: relative;
-    left: 150px;
-    top: 20px;
-}
-.click {
-    font-size: 22px;
-    position: relative;
-    left: 150px;
-    top: 30px;
-}
-.about-us {
-    position: relative;
-    top: 80px;
-    left: 300px;
-}
+
 #name-btn {
     position: relative;
-    top: 70px;
-    left: 340px;
+    top: 40px;
     margin: 10px;
     width: 200px;
     height: 40px;
@@ -95,19 +154,8 @@ button:hover {
 li {
     list-style: none;
 }
-h2 {
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 20px;
-}
-p {
-    font-size: 22px;
-    position: relative;
-    top: 40px;
-    display: flex;
-    justify-content: center;
+.about-us {
+    padding-top: 200px;
 }
 .contact-container {
     height: 400px;
@@ -121,8 +169,7 @@ p {
 }
 #btn {
     position: relative;
-    top: 100px;
-    left: 400px;
+    top: 60px;
     width: 100px;
     height: 40px;
     border-radius: 4px;
