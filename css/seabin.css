@@ -10,7 +10,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../DBC\ images/seabin.jpeg);
+    background-image: url(../DBC\ images/lake2.jpeg);
     background-size: cover;
 }
 .banner .content {
@@ -37,6 +37,7 @@ p {
     text-decoration: none;
     letter-spacing: 2px;
     transition: 0.5s;   
+    border-radius: 50px;
 }
 
 .btn:hover {
@@ -309,10 +310,13 @@ section {
 
 }
 .titleText {
-    color:#111;
+    color:#282D63;
     font-size: 2em;
     font-weight: 300;
 } 
+.tlt{
+color: #282D63;
+}
 .titleText span {
     color: #282D63;
     font-weight: 700;
