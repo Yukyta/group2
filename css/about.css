@@ -35,6 +35,11 @@ header {
     text-decoration: underline;
     color: #282D63;
 }
+.tab {
+  background-color: #282D63;
+  color: white;
+  border-radius: 10px;
+}
 button {
     margin-left: 20px;
     padding: 9px 25px;

@@ -46,7 +46,9 @@ button {
     transition: all 0.3s ease 0s;
 }
 button:hover {
-    background-color: rgba(40,45,99,0.8);
+    background-color: white;
+    color:#282D63;
+    border: 1px solid #282D63;
 }
 .topnav .icon {
     display: none;

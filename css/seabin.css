@@ -485,3 +485,8 @@ color: #282D63;
 #seabin1:checked ~ .nav-auto .a-b3{
     background-color: #282D63;
 }
+.tab {
+    background-color: #282D63;
+    color: white;
+    border-radius: 10px;
+  }

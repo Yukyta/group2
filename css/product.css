@@ -236,3 +236,8 @@ h3 {
     font-size: 12px;
     margin-top: 4rem;
 }
+.tab {
+    background-color: #282D63;
+    color: white;
+    border-radius: 10px;
+  }
