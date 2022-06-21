@@ -476,13 +476,8 @@ color: #282D63;
     margin-right:30px;
     justify-content: center;   
 }
-#seabin1:checked ~ .nav-auto .a-b1{
-    background-color: #282D63;
-}
-#seabin1:checked ~ .nav-auto .a-b2{
-    background-color: #282D63;
-}
-#seabin1:checked ~ .nav-auto .a-b3{
+
+.seabinn:checked ~ .nav-auto .a-b3{
     background-color: #282D63;
 }
 .tab {
