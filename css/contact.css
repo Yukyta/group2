@@ -266,6 +266,7 @@ li {
 }
 @media screen and (max-width:600px) {
     .footer-container {
+        margin-top: 600px;
         height: 680px;
     }
     .footer-3 {

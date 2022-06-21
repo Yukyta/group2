@@ -104,12 +104,6 @@ p {
     display: table;
     clear: both;
   }
-  .learn {
-    font-size: 30px;
-    position: relative;
-    top: 50px;
-    left:0px;
-  }
   .card {
     border-radius: 20px;
     background-color: #282D63;
@@ -126,6 +120,12 @@ p {
       display: block;
       margin-bottom: 20px;
     }
+  }
+  .learn {
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left:0px;
   }
 .footer {
     width: 80%;
